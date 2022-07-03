@@ -6,6 +6,7 @@ import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -36,9 +37,17 @@ class MainActivity : AppCompatActivity() {
             var resultOfCalculation: Int
 
             if(TextUtils.isEmpty(firstValue.text.toString())){
-                resultAns.setText("First value is empty")
+                 Toast.makeText(
+                     this@MainActivity,
+                     "Please fill first value",
+                     Toast.LENGTH_SHORT
+                 ).show()
             }else if (TextUtils.isEmpty(secondValue.text.toString())){
-                resultAns.setText(("Second value is empty"))
+                Toast.makeText(
+                    this@MainActivity,
+                    "Please fill second value",
+                    Toast.LENGTH_SHORT
+                ).show()
             }else if(true){
                 firstIntValue = Integer.parseInt(firstValue.text.toString())
                 secondIntValue = Integer.parseInt(secondValue.text.toString())
@@ -55,9 +64,17 @@ class MainActivity : AppCompatActivity() {
             var resultOfCalculation: Int
 
             if(TextUtils.isEmpty(firstValue.text.toString())){
-                resultAns.setText("First value is empty")
+                Toast.makeText(
+                    this@MainActivity,
+                    "Please fill first value",
+                    Toast.LENGTH_SHORT
+                ).show()
             }else if (TextUtils.isEmpty(secondValue.text.toString())){
-                resultAns.setText(("Second value is empty"))
+                Toast.makeText(
+                    this@MainActivity,
+                    "Please fill second value",
+                    Toast.LENGTH_SHORT
+                ).show()
             }else if(true){
                 firstIntValue = Integer.parseInt(firstValue.text.toString())
                 secondIntValue = Integer.parseInt(secondValue.text.toString())
@@ -74,9 +91,17 @@ class MainActivity : AppCompatActivity() {
             var resultOfCalculation: Int
 
             if(TextUtils.isEmpty(firstValue.text.toString())){
-                resultAns.setText("First value is empty")
+                Toast.makeText(
+                    this@MainActivity,
+                    "Please fill first value",
+                    Toast.LENGTH_SHORT
+                ).show()
             }else if (TextUtils.isEmpty(secondValue.text.toString())){
-                resultAns.setText(("Second value is empty"))
+                Toast.makeText(
+                    this@MainActivity,
+                    "Please fill second value",
+                    Toast.LENGTH_SHORT
+                ).show()
             }else if(true){
                 firstIntValue = Integer.parseInt(firstValue.text.toString())
                 secondIntValue = Integer.parseInt(secondValue.text.toString())
@@ -93,9 +118,17 @@ class MainActivity : AppCompatActivity() {
             var resultOfCalculation: Int
 
             if(TextUtils.isEmpty(firstValue.text.toString())){
-                resultAns.setText("First value is empty")
+                Toast.makeText(
+                    this@MainActivity,
+                    "Please fill first value",
+                    Toast.LENGTH_SHORT
+                ).show()
             }else if (TextUtils.isEmpty(secondValue.text.toString())){
-                resultAns.setText(("Second value is empty"))
+                Toast.makeText(
+                    this@MainActivity,
+                    "Please fill second value",
+                    Toast.LENGTH_SHORT
+                ).show()
             }else if(true){
                 firstIntValue = Integer.parseInt(firstValue.text.toString())
                 secondIntValue = Integer.parseInt(secondValue.text.toString())
